@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.logo {
+  width: 240px;
+  height: 80px;
+  &__name {
+    fill: $logo-text;
+    transform: translate(80px, 0px) scale(2.5);
+  }
+  &__slogan {
+    fill: $logo-text;
+    transform: translate(85px, 70px) scale(0.3);
+  }
+  &__icon {
+    fill: $logo-icon;
+    transform: translate(0, 0) scale(0.8);
+  }
+}
