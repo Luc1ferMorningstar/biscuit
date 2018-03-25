@@ -1,18 +1,18 @@
-@import '../../styles/variables.scss';
+@import '../../styles/colors.scss';
 
 .logo {
   width: 240px;
   height: 80px;
   &__name {
-    fill: $logo-text;
+    fill: $whiteSoft;
     transform: translate(80px, 0px) scale(2.5);
   }
   &__slogan {
-    fill: $logo-text;
+    fill: $whiteSoft;
     transform: translate(85px, 70px) scale(0.3);
   }
   &__icon {
-    fill: $logo-icon;
+    fill: $yellowDark;
     transform: translate(0, 0) scale(0.8);
   }
 }

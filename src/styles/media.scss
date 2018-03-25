@@ -1,0 +1,16 @@
+@value breakpointXsMax: 320px;
+@value breakpointXsMax: 767px;
+@value breakpointMdMin: 768px;
+@value breakpointMdMax: 991px;
+@value breakpointLgMin: 992px;
+@value breakpointLgMax: 1133px;
+@value breakpointXlMin: 1134px;
+
+@custom-media --iPhone5s (max-width: 320px);
+@custom-media --phone (max-width: 767px);
+@custom-media --not-phone (min-width: 768px);
+@custom-media --tablet (min-width: 768px) and (max-width: 991px);
+@custom-media --large-tablet (min-width: 768px) and (max-width: 1133px);
+@custom-media --not-tablet (min-width: 992px);
+@custom-media --desktop (min-width: 992px) and (max-width: 1133px);
+@custom-media --large-desktop (min-width: 1134px);
