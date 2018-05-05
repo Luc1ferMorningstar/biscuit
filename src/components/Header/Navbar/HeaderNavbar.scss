@@ -1,0 +1,14 @@
+@import '../../../styles/colors';
+
+.header-navbar {
+  background-color: transparent;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+  transition: all .2s;
+
+  &.sticky {
+    background-color: $grayDark;
+    position: fixed;
+  }
+}
