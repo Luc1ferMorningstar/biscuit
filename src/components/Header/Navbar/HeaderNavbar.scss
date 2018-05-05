@@ -1,4 +1,4 @@
-@import '../../../styles/colors';
+@import '../../../styles/colors.scss';
 
 .header-navbar {
   background-color: transparent;
@@ -10,5 +10,6 @@
   &.sticky {
     background-color: $grayDark;
     position: fixed;
+    box-shadow: -10px 0px 15px 0px $grayDark;
   }
 }

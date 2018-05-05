@@ -1,5 +1,4 @@
-import React, { PureComponent } from 'react'
-import ReactDOM from 'react-dom';
+import React, { PureComponent } from 'react';
 
 const sticky = WrappedComponent => {
   class StickyView extends PureComponent {
@@ -8,7 +7,6 @@ const sticky = WrappedComponent => {
     };
 
     componentDidMount() {
-      this.nodeViewHeight = ReactDOM.findDOMNode(this).clientHeight / 2;
       window.addEventListener("scroll", this.onScroll, false);
     };
 
@@ -17,9 +15,9 @@ const sticky = WrappedComponent => {
     };
 
     onScroll = () => {
-      if (window.scrollY >= this.nodeViewHeight && !this.state.sticky) {
+      if (window.scrollY >= 0 && !this.state.sticky) {
         this.setState({ sticky: true });
-      } else if (window.scrollY < this.nodeViewHeight && this.state.sticky) {
+      } else if (window.scrollY <= 0 && this.state.sticky) {
         this.setState({ sticky: false });
       }
     };
