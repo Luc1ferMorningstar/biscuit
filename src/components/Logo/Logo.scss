@@ -4,16 +4,34 @@
   width: 240px;
   height: 80px;
   cursor: pointer;
-  &__name {
-    fill: $whiteSoft;
+  transition: all .3s;
+  & > g {
+    transition: transform .3s;
+    fill: $grayDark;
+  }
+  .name {
     transform: translate(80px, 0px) scale(2.5);
   }
-  &__slogan {
-    fill: $whiteSoft;
+  .slogan {
     transform: translate(85px, 70px) scale(0.3);
   }
-  &__icon {
-    fill: $yellowDark;
+  .icon {
     transform: translate(0, 0) scale(0.8);
+  }
+
+  &.sticky {
+    height: 58px;
+    .name {
+      transform: translate(62px, 0px) scale(1.7);
+      fill: $whiteSoft;
+    }
+    .slogan {
+      transform: translate(66px, 50px) scale(0.25);
+      fill: $whiteSoft;
+    }
+    .icon {
+      transform: translate(0, 0) scale(0.6);
+      fill: $yellowDark;
+    }
   }
 }

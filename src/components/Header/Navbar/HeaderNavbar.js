@@ -12,7 +12,7 @@ const propTypes = {
 const HeaderNavbar = ({ sticky }) => {
   return (
     <div className={`header-navbar ${sticky ? 'sticky' : ''}`}>
-      <Logo />
+      <Logo sticky={sticky} />
     </div>
   )
 };

@@ -15,7 +15,7 @@ const sticky = WrappedComponent => {
     };
 
     onScroll = () => {
-      if (window.scrollY >= 0 && !this.state.sticky) {
+      if (window.scrollY > 1 && !this.state.sticky) {
         this.setState({ sticky: true });
       } else if (window.scrollY <= 0 && this.state.sticky) {
         this.setState({ sticky: false });

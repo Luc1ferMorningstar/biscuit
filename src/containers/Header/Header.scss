@@ -1,11 +1,14 @@
 @import '../../styles/colors.scss';
 
 .header {
+  position: relative;
   width: 100vw;
-  height: 500px;
+  height: 100vh;
   background-color: $yellowDark;
-  .slogan {
-    fill: $whiteSoft;
-    transform: translate(85px, 70px) scale(0.3);
+
+  .divider {
+    position: absolute;
+    bottom: 0;
+    width: inherit;
   }
 }
