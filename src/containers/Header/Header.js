@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <div className="header">
       <HeaderNavbar />
-      <img className="divider" src={dividerImage} alt=""/>
     </div>
   )
 };
