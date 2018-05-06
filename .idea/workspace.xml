@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fe988623-c67a-4d00-89cf-7ba853543d64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/divider-wave.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/HeaderNavbar.scss" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/HeaderNavbar.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.scss" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.scss" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.js" afterPath="$PROJECT_DIR$/src/containers/Header/Header.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.scss" afterPath="$PROJECT_DIR$/src/containers/Header/Header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +22,9 @@
       <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,9 +89,21 @@
       <file leaf-file-name="HeaderNavbar.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header/Navbar/HeaderNavbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logo.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/components/Logo/Logo.js" />
         <option value="$PROJECT_DIR$/src/HOCs/sticky.js" />
         <option value="$PROJECT_DIR$/src/containers/Header/Header.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Logo/Logo.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Navbar/HeaderNavbar.scss" />
       </list>
     </option>
@@ -248,13 +257,6 @@
               <item name="biscuit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biscuit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="biscuit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biscuit" type="b2602c69:ProjectViewProjectNode" />
@@ -352,7 +354,7 @@
       <updated>1521970920932</updated>
       <workItem from="1521970922031" duration="7157000" />
       <workItem from="1525545890298" duration="7516000" />
-      <workItem from="1525631205052" duration="392000" />
+      <workItem from="1525631205052" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="implemented deploy process">
       <created>1521979021124</created>
@@ -389,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525611503303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some fixes">
+      <created>1525632059915</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525632059915</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21062000" />
+    <option name="totallyTimeSpent" value="21528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,14 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -723,21 +724,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/logo.svg" />
-    <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Logo/Logo.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -751,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Navbar/HeaderNavbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
